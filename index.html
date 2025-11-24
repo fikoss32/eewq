@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天气卡片</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-card">
+            <div class="location">
+                <span class="city">北京</span>
+                <span class="date">2025年11月23日</span>
+            </div>
+            
+            <div class="weather-main">
+                <div class="weather-icon">
+                    <div class="sun"></div>
+                </div>
+                <div class="temperature">
+                    <span class="temp-value">25</span>
+                    <span class="temp-unit">°C</span>
+                </div>
+                <div class="weather-desc">晴天</div>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span class="detail-label">体感温度</span>
+                    <span class="detail-value">26°C</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">湿度</span>
+                    <span class="detail-value">45%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">风速</span>
+                    <span class="detail-value">3.5 m/s</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">气压</span>
+                    <span class="detail-value">1013 hPa</span>
+                </div>
+            </div>
+            
+            <div class="forecast">
+                <div class="forecast-item">
+                    <span class="forecast-day">明天</span>
+                    <div class="forecast-icon cloudy"></div>
+                    <span class="forecast-temp">23°</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="forecast-day">后天</span>
+                    <div class="forecast-icon rainy"></div>
+                    <span class="forecast-temp">20°</span>
+                </div>
+                <div class="forecast-item">
+                    <span class="forecast-day">周四</span>
+                    <div class="forecast-icon partly-cloudy"></div>
+                    <span class="forecast-temp">22°</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
